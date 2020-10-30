@@ -24,9 +24,9 @@ body {
 
 .pattern-quotes {
     position: absolute;
-    height: 15%;
-    left: 20%;
-    top: 25%;
+    height: 13%;
+    left: 18%;
+    top: 26%;
 }
 
 .pattern-bg {
@@ -106,6 +106,11 @@ body {
 
 @media screen and (max-width: 700px){
 
+    body { 
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
     .container {
         background-image: url('/images/pattern-curve.svg');
         background-repeat: no-repeat;
@@ -135,7 +140,7 @@ body {
 
     .photo {
         width: 63%;
-        height: 41.5%;
+        height: 4%;
         left: 23%;
         top: 8%;
         background-size: contain;
@@ -156,7 +161,7 @@ body {
     }
 
     .prev img, .next img {
-      width: 80%;
+      width: 100%;
     }
 
     .text {
